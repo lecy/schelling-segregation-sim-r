@@ -2,6 +2,8 @@
 
 Simulation of Thomas Shelling's Housing Segregation Model in R
 
+> Schelling, T. C. (1971). Dynamic models of segregation. Journal of mathematical sociology, 1(2), 143-186.
+
 ```r
 library(ggplot2)
 library(dplyr)
@@ -29,5 +31,5 @@ for( i in 1:length(result) )
 { plot_grid( sim[[i]], iteration=i ) }
 ```
 
-![image](https://github.com/user-attachments/assets/cd5e32d2-a198-4bc8-8d81-a886fecbf2bc)
+![image](https://github.com/user-attachments/assets/57d2e98a-e151-45b8-a146-839046c8349f)
 
