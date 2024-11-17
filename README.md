@@ -27,7 +27,7 @@ plot_grid( sim[[i]], iteration=i )
 
 # ANIMATE
 par( ask=TRUE )
-for( i in 1:length(result) )
+for( i in 1:length(sim) )
 { plot_grid( sim[[i]], iteration=i ) }
 ```
 
